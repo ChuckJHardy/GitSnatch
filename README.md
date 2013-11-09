@@ -19,17 +19,12 @@ Or install it yourself as:
     $ gem install git_snatch
 
 ## Usage
-
-    GitSnatch.configure do |config|
-      config.endpoint = 'https://github.company.com/organisation'
-      config.username = 'git-snatch-user'
-      config.password = 81ysnaks7HFHS619sn
-    end
     
     repo = 'ContinuusLenimentus'
     sha = '21c5f27a6997c4888056ae7d95dd193893378492'
+    file = 'app/controllers/user_controller.rb'
     
-    GitSnatch.within(repo, sha).grab('app/controllers/user_controller.rb')
+    GitSnatch.within(repo, sha).grab(file)
     # => class UserController < ApplicationController...
     
 ## Configuration
