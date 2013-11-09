@@ -1,7 +1,7 @@
 require "git_snatch/configuration"
 require "git_snatch/version"
 
-module GitSnatch
+class GitSnatch
   def self.configuration
     @configuration ||= Configuration.new
   end

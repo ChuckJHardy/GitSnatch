@@ -1,4 +1,4 @@
-module GitSnatch
+class GitSnatch
   class Configuration
     attr_accessor :endpoint, :username, :password
 
