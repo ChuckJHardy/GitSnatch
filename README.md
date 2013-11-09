@@ -26,17 +26,40 @@ Or install it yourself as:
       config.password = 81ysnaks7HFHS619sn
     end
     
-    GitSnatch.within('21c5f27a6997c4888056ae7d95dd193893378492').grab('user_controller.rb')
+    repo = 'ContinuusLenimentus'
+    sha = '21c5f27a6997c4888056ae7d95dd193893378492'
+    
+    GitSnatch.within(repo, sha).grab('user_controller.rb')
     # => class UserController < ApplicationController...
     
 ## Configuration
 
-* `endpoint` sets the base uri for github. Perfect for enterprise users. `https://github.com/user`
+Github
+
+    GitSnatch.configure do |config|
+      config.username = 'ChuckJHardy'
+    end
+    
+Github Enterprise
+
+    GitSnatch.configure do |config|
+      config.endpoint = 'https://github.company.com/organisation'
+      config.username = 'git-snatch-user'
+      config.password = 81ysnaks7HFHS619sn
+    end
+
+Required for all.
+
+* `username` sets the username for the account.
 
 Required for private or enterpise repo's.
 
-* `username` sets the username for authentication.
 * `password` sets the password for authentication.
+
+Required for enterpise accounts.
+
+* `endpoint` sets the base uri for github. Perfect for enterprise users. `https://raw.github.com`
+
 
 ## Requirements
 
