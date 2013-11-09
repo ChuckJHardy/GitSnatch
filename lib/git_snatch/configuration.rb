@@ -13,12 +13,13 @@ class GitSnatch
   end
 
   class Configuration
-    attr_accessor :endpoint, :username, :password
+    attr_accessor :endpoint, :auth_types, :username, :password
 
     def initialize
-      self.endpoint = 'http://www.github.com'
-      self.username = nil
-      self.password = nil
+      self.endpoint   = 'http://www.github.com'
+      self.auth_types = :basic
+      self.username   = nil
+      self.password   = nil
     end
   end
 end

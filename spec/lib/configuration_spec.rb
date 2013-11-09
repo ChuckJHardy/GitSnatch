@@ -49,6 +49,26 @@ describe GitSnatch::Configuration do
     end
   end
 
+  describe "#auth_types" do
+    subject { instance.auth_types }
+
+    let(:default) { :basic }
+    let(:new) { :http }
+
+    it "returns a symbol" do
+      expect(subject).to be_an_instance_of(Symbol)
+    end
+
+    it 'returns default' do
+      expect(subject).to eq(default)
+    end
+
+    it 'returns altered' do
+      instance.auth_types = new
+      expect(subject).to eq(new)
+    end
+  end
+
   describe "#username" do
     subject { instance.username }
 

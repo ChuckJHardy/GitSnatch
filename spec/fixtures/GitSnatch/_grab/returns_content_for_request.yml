@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://john.smith:123456@github.company.com/organisation/www/raw/38209a615b72728ef4f3160619c7c63c37b8994c/continuus_lenimentus.enc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        R2l0SHViLmNvbQ==
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAwOSBOb3YgMjAxMyAxODozMzoxNCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "U3RhdHVz":
+      - !binary |-
+        MjAwIE9L
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        X2ZpX3Nlc3M9QkFoN0NEb1BjMlZ6YzJsdmJsOXBaQ0lsWXpabFpHWXdaV1l3
+        WkdFeU0yRXdZMlk0T1RNeU16ZG1ZMkpsTnpSbE5HUTZDWFZ6WlhKcFVqb1Fa
+        bWx1WjJWeWNISnBiblJKSWlVd056UmpOams1WldNelpUVmtNRE5pTTJaaE5t
+        UTNOR0ZtWWpJek5UQTNaUVk2QmtWVS0tNGQyYWEyYjM2ODc4YjNjZmQ2MzEw
+        YTc3MjE2YWJlNzMwZDYwYTZlODsgcGF0aD0vOyBleHBpcmVzPVN1biwgMDEt
+        SmFuLTIwMjMgMDA6MDA6MDAgR01UOyBzZWN1cmU7IEh0dHBPbmx5
+      - !binary |-
+        c3B5X3VzZXI9Y2hhcmxlcy1oYXJkeTsgcGF0aD0vOyBleHBpcmVzPVdlZCwg
+        MDktTm92LTIwMzMgMTg6MzM6MTQgR01UOyBIdHRwT25seQ==
+      - !binary |-
+        dXNlcl9zZXNzaW9uPWJKTGN0ZlY3Y04yNjRLY1VuVWd4M2NEWWVHSzl5T0hT
+        VXFSdmhBQU1KeHktbHV0UzsgcGF0aD0vOyBleHBpcmVzPVNhdCwgMjMtTm92
+        LTIwMTMgMTg6MzM6MTQgR01UOyBzZWN1cmU7IEh0dHBPbmx5
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        ZGVueQ==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        aHR0cHM6Ly9yZW5kZXIuZ2l0aHViLm90YmVhY2guY29t
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjM0
+      !binary "Q29udGVudC1EaXNwb3NpdGlvbg==":
+      - !binary |-
+        aW5saW5l
+      !binary "Q29udGVudC1UcmFuc2Zlci1FbmNvZGluZw==":
+      - !binary |-
+        YmluYXJ5
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        ODQ=
+      !binary "RXRhZw==":
+      - !binary |-
+        ImU3Mjc0Y2RiZTQ1ZjMxMjUxMWY0OGVjNDBkZjM5YWE1Ig==
+      !binary "WC1HaXRodWItUmVxdWVzdC1JZA==":
+      - !binary |-
+        OTc1MzliYmEtNTA4ZC00MmU1LThhNDgtYjIxNWNlN2E5M2My
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ezpjcmVhdGVkX2F0PT4yMDEzLTExLTA4IDE1OjM0OjExICswMDAwLCA6ZHVy
+        YXRpb249PjI0LjMxMTg0MiwgOmNvdW50cz0+ezpleGFtcGxlPT4yMzA0LCA6
+        ZmFpbHVyZT0+MywgOnBlbmRpbmc9PjV9LCA6bWV0cmljcz0+ezp0b3RhbF9s
+        aW5lcz0+Nzg2NSwgOmNvdmVyYWdlPT57OnBlcmNlbnQ9Pjc5LjgzNDcxMDc0
+        MzgwMTY1LCA6c3RyZW5ndGg9PjYuMzE1MDY2NzUxNDMwMzg4LCA6bGluZXM9
+        PjYyNzl9fX0K
+    http_version: 
+  recorded_at: Sat, 09 Nov 2013 18:33:14 GMT
+recorded_with: VCR 2.7.0
