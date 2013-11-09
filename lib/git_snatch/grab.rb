@@ -1,9 +1,9 @@
 class GitSnatch
   class Grab
-    def initialize(repo, sha, file)
+    def initialize(repo, sha, location)
       @repo = repo
       @sha = sha
-      @file = file
+      @location = location
     end
 
     def content
@@ -17,7 +17,7 @@ class GitSnatch
     private
 
     def url
-      Url.new(@repo, @sha, @file).full
+      Url.new(@repo, @sha, @location).full
     end
   end
 end

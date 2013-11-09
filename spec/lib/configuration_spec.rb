@@ -32,7 +32,7 @@ describe GitSnatch::Configuration do
   describe "#endpoint" do
     subject { instance.endpoint }
 
-    let(:default) { 'http://www.github.com' }
+    let(:default) { 'https://raw.github.com' }
     let(:new) { 'http://github.company.com/organisation' }
 
     it "returns a string" do

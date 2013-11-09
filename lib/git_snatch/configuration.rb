@@ -16,7 +16,7 @@ class GitSnatch
     attr_accessor :endpoint, :auth_types, :username, :password
 
     def initialize
-      self.endpoint   = 'http://www.github.com'
+      self.endpoint   = 'https://raw.github.com'
       self.auth_types = :basic
       self.username   = nil
       self.password   = nil

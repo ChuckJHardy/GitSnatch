@@ -2,7 +2,7 @@
 
 # GitSnatch
 
-Grab a files content from a github commit sha. Simple and lightweight.
+Grab content from a file with a github commit sha. Simple and lightweight.
 
 ## Installation
 
@@ -29,15 +29,22 @@ Or install it yourself as:
     repo = 'ContinuusLenimentus'
     sha = '21c5f27a6997c4888056ae7d95dd193893378492'
     
-    GitSnatch.within(repo, sha).grab('user_controller.rb')
+    GitSnatch.within(repo, sha).grab('app/controllers/user_controller.rb')
     # => class UserController < ApplicationController...
     
 ## Configuration
 
-Github
+Github Public
 
     GitSnatch.configure do |config|
       config.username = 'ChuckJHardy'
+    end
+    
+Github Private
+
+    GitSnatch.configure do |config|
+      config.username = 'ChuckJHardy'
+      config.password = 81ysnaks7HFHS619sn
     end
     
 Github Enterprise
@@ -64,6 +71,7 @@ Required for enterpise accounts.
 ## Requirements
 
 * ruby > 1.9.x
+* curl > 0.8.x
 
 ## Contributing
 

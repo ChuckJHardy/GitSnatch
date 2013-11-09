@@ -17,8 +17,8 @@ class GitSnatch
     new(repo, sha)
   end
 
-  def grab(file)
-    Grab.new(@repo, @sha, file).content
+  def grab(location)
+    Grab.new(@repo, @sha, location).content
   end
 end
 

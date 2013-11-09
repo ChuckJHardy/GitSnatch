@@ -1,10 +1,10 @@
 require 'spec_helper'
 
 describe GitSnatch::Grab do
-  let(:instance) { described_class.new(repo, sha, file) }
+  let(:instance) { described_class.new(repo, sha, location) }
   let(:repo) { 'random_project' }
   let(:sha) { '214e301aef' }
-  let(:file) { 'readme.md' }
+  let(:location) { 'readme.md' }
 
   describe '#content' do
     subject { instance.content }

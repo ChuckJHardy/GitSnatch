@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = GitSnatch::VERSION
   spec.authors       = ["Chuck J hardy"]
   spec.email         = ["chuckjhardy@gmail.com"]
-  spec.description   = %q{Write a gem description}
-  spec.summary       = %q{Write a gem summary}
+  spec.description   = %q{Grab content from a file with a github commit sha}
+  spec.summary       = %q{Grab content from a file with a github commit sha. Simple and lightweight.}
   spec.homepage      = "https://github.com/ChuckJHardy/GitSnatch"
   spec.license       = "MIT"
 

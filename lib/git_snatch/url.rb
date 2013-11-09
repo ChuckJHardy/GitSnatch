@@ -1,9 +1,9 @@
 class GitSnatch
   class Url
-    def initialize(repo, sha, file)
+    def initialize(repo, sha, location)
       @repo = repo
       @sha = sha
-      @file = file
+      @location = location
     end
 
     def full
@@ -11,14 +11,22 @@ class GitSnatch
     end
 
     private
-    attr_reader :repo, :sha, :file
+    attr_reader :repo, :sha, :location
 
     def elements
-      [ base, repo, mode, sha, file ]
+      [ base, username, repo, mode, sha, location ].compact
     end
 
     def mode
-      'raw'
+      'raw' unless github?
+    end
+
+    def github?
+      base.include?('raw')
+    end
+
+    def username
+      GitSnatch.configuration.username if github?
     end
 
     def base
