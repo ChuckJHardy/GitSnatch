@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ChuckJHardy/GitSnatch.png?branch=master)](https://travis-ci.org/ChuckJHardy/GitSnatch) [![Coverage Status](https://coveralls.io/repos/ChuckJHardy/GitSnatch/badge.png)](https://coveralls.io/r/ChuckJHardy/GitSnatch) [![Code Climate](https://codeclimate.com/github/ChuckJHardy/GitSnatch.png)](https://codeclimate.com/github/ChuckJHardy/GitSnatch) [![Gem Version](https://badge.fury.io/rb/git_snatch.png)](http://badge.fury.io/rb/git_snatch) [![Code Climate](https://codeclimate.com/github/ChuckJHardy/GitSnatch.png)](https://codeclimate.com/github/ChuckJHardy/GitSnatch)
+[![Build Status](https://travis-ci.org/ChuckJHardy/GitSnatch.png?branch=master)](https://travis-ci.org/ChuckJHardy/GitSnatch) [![Coverage Status](https://coveralls.io/repos/ChuckJHardy/GitSnatch/badge.png)](https://coveralls.io/r/ChuckJHardy/GitSnatch) [![Code Climate](https://codeclimate.com/github/ChuckJHardy/GitSnatch.png)](https://codeclimate.com/github/ChuckJHardy/GitSnatch) [![Gem Version](https://badge.fury.io/rb/git_snatch.png)](http://badge.fury.io/rb/git_snatch)
 
 # GitSnatch
 
