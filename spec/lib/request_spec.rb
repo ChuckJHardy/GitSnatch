@@ -15,7 +15,7 @@ describe GitSnatch::Request do
     let(:curl) do
       double(
         'Curl::Easy',
-        perform: stub,
+        perform: double,
         body_str: body
       )
     end
